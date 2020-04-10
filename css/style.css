@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+.navbar{ background:#5C3650;}
+
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+
+.nav-link{ margin-right: 1em !important;}
+
+.navbar-brand:hover{color:#f4f4f4; }
+
+.nav-link:hover{ background: #f4f4f4; color: #5C3650; }
+
+.navbar-collapse{ justify-content: flex-end;}
+
+.navbar-toggler{  background:#fff !important;}
+
+html,h1,h2,h3,h4,h5,h6,a{
+ font-family: "Raleway";
+}
+
+
+.header{
+	width: 1350px;
+	height: 1000px;
+	background-attachment: scroll;
+	background-image: url('../images/12.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	
+
+}
+
+
+
+.description{
+	position:absolute;
+	top:60%;
+	left:30%;
+	margin:auto;
+	padding:2em;
+	
+}
+
+.description span{
+	text-align: center;
+	color:white;
+	font-style: oblique;
+	font-size: 3vw;
+
+	
+
+}
+
+.description h1{
+	text-align: center;
+	color:white;
+	font-size: 5vw;
+	
+
+
+}
+
+.icon-bar {
+	width: 22px; 
+	height: 2px;
+	background-color: #B6B6B6;
+	display: block;
+	transition: all 0.2s;
+	margin-top: 4px
+}
+
+.socialMediaLinks a {
+    font-size: 50px;
+    margin: 0 10px 0 0;
+    color: #000000;
+    text-decoration: none;
+    
+}
+
+
+
+.socialMediaLinks a:hover { 
+    background-color: #5C3650; 
+}
+
+
+.socialMediaLinks a.fa-facebook-f { 
+    color: white; 
+}
+.socialMediaLinks a.fa-github { 
+    color: white; 
+}
+.socialMediaLinks a.fa-instagram { 
+    color: white; 
+}
+.socialMediaLinks a.fa-linkedin-in { 
+    color: white; 
+}
+
+
+.about{
+	margin:4em 0;
+	padding: 1em;
+	position: relative;
+}
+
+.about h1{
+	color: #5C3650;
+	margin: 2em;
+	text-align: center;
+}
+
+.about img{
+	height:100%;
+	width:100%;
+	border-radius:50%;
+}
+
+.about .desc{
+ padding: 2em;
+ border-left:4px solid #5C3650;
+}
+
+
+.about .desc p{
+ line-height:2;
+ color:#888;
+}
+
+
+.skills{
+	margin:4em 0;
+	padding: 1em;
+	position: relative;
+}
+
+.skills h1{
+	color:#5C3650;
+	margin: 2em;
+	text-align: center;
+}
+
+.skills h4{
+	font-size: 30px;
+}
+
+.skills-icon {
+    font-size: 50px;
+    margin: 0 0 0 0;
+    color: #000000;
+    text-decoration: none;
+}
+
+.portfolio{
+	margin:4em 0;
+	padding: 1em;
+	position: relative;
+}
+
+.portfolio h1{
+	color:#5C3650;
+	margin:2em; 
+}
+
+.portfolio img{
+	height: 25rem;
+	width:100%;
+	margin:1em;
+	border-radius: 10%;
+}
+
+.profile{
+	margin:4em 0;
+	padding: 1em;
+	position: relative;
+}
+
+.profile h1{
+	color:#5C3650;
+	margin:2em; 
+}
+
+.profile img{
+	height: 100%;
+	width: 100%;
+}
+
+.contact{
+	margin: 6em 0;
+	position: relative;
+}
+
+.contact h1{
+	color:#5C3650; 
+	padding: 2em 1px;
+}
+
+.contact  .right{
+	max-width: 600px;
+}
+
+.contact .right .btn-secondary{
+	background: #5C3650;
+	color: #fff;
+	border:0;
+}
+
+
+
+.contact .right .form-control .placeholder{
+	color: #888;
+	font-size: 16px;
+
+
+}
+.footer{
+	position: relative;
+	background-color: #5C3650;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	height: 2.5rem;
+	text-align: center; 
+	
+
+}
